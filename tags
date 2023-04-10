@@ -1,0 +1,75 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	C:/Users/User/Desktop/personal/docker/docker-compose-prometheus/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/80ee839/
+0	./alertmanager-server/alertmanager.json	/^    "targets": [ "alert-manager:9093" ],$/;"	s	array:0.targets
+0	./alertmanager-server/alertmanager.json	/^  {$/;"	o
+0	./memcached-server/memcached.json	/^    "targets": [ "memcached-exporter:9150" ],$/;"	s	array:0.targets
+0	./memcached-server/memcached.json	/^  {$/;"	o
+0	./node-exporter/node-exporter.json	/^    "targets": [ "node-exporter:9100" ],$/;"	s	array:0.targets
+0	./node-exporter/node-exporter.json	/^  {$/;"	o
+0	./postgresql-server/postgresql-server.json	/^    "targets": [ "postgresql-exporter:9187" ],$/;"	s	array:0.targets
+0	./postgresql-server/postgresql-server.json	/^  {$/;"	o
+0	./prometheus-server/config/targets/grafana.json	/^    "targets": [ "grafana:3000" ],$/;"	s	array:0.targets
+0	./prometheus-server/config/targets/grafana.json	/^  {$/;"	o
+0	./prometheus-server/config/targets/prometheus.json	/^    "targets": [ "localhost:9090" ],$/;"	s	array:0.targets
+0	./prometheus-server/config/targets/prometheus.json	/^  {$/;"	o
+0	./pushgateway/pushgateway.json	/^    "targets": [ "pushgateway:9091" ],$/;"	s	array:0.targets
+0	./pushgateway/pushgateway.json	/^  {$/;"	o
+0	./redis-server/redis.json	/^    "targets": [ "redis-exporter:9121" ],$/;"	s	array:0.targets
+0	./redis-server/redis.json	/^  {$/;"	o
+Access the redis container	./redis-server/README.md	/^### Access the redis container$/;"	S	section:Redis monitoring and metrics
+AlertManager Server	./alertmanager-server/README.md	/^# AlertManager Server$/;"	c
+Architecture and layout	./README.md	/^## Architecture and layout$/;"	s	chapter:docker-compose-prometheus
+Author	./README.md	/^### Author ###$/;"	S	section:docker-compose-prometheus""Debugging
+Container build command	./concat-container/README.md	/^## Container build command$/;"	s	chapter:promconf-concat docker container
+Creating Prometheus	./README.md	/^### Creating Prometheus$/;"	S	section:docker-compose-prometheus""Getting started
+Debugging	./README.md	/^## Debugging$/;"	s	chapter:docker-compose-prometheus
+Existing Services	./README.md	/^### Existing Services$/;"	S	section:docker-compose-prometheus""Getting started
+Extending	./README.md	/^## Extending$/;"	s	chapter:docker-compose-prometheus
+Getting started	./README.md	/^## Getting started$/;"	s	chapter:docker-compose-prometheus
+How it works	./concat-container/README.md	/^## How it works$/;"	s	chapter:promconf-concat docker container
+Introduction	./README.md	/^## Introduction$/;"	s	chapter:docker-compose-prometheus
+Introduction	./concat-container/README.md	/^## Introduction$/;"	s	chapter:promconf-concat docker container
+MailHog Server for AlertManager alerts	./mailhog-server/README.md	/^# MailHog Server for AlertManager alerts$/;"	c
+Networking	./README.md	/^### Networking$/;"	S	section:docker-compose-prometheus""Getting started
+Push the container to dockerhub	./concat-container/README.md	/^## Push the container to dockerhub$/;"	s	chapter:promconf-concat docker container
+Redis monitoring and metrics	./redis-server/README.md	/^## Redis monitoring and metrics$/;"	s
+Running redis	./redis-server/README.md	/^### Running redis$/;"	S	section:Redis monitoring and metrics
+Table of contents	./README.md	/^### Table of contents$/;"	S	chapter:docker-compose-prometheus
+Useful commands	./alertmanager-server/README.md	/^## Useful commands$/;"	s	chapter:AlertManager Server
+Warning	./redis-server/README.md	/^### Warning$/;"	S	section:Redis monitoring and metrics
+Weave Scope	./scope/README.md	/^## Weave Scope$/;"	s
+docker-compose-prometheus	./README.md	/^# docker-compose-prometheus$/;"	c
+job	./alertmanager-server/alertmanager.json	/^      "job": "alertmanager"$/;"	s	object:0.labels
+job	./memcached-server/memcached.json	/^      "job": "memcached_exporter"$/;"	s	object:0.labels
+job	./node-exporter/node-exporter.json	/^      "job": "node-exporter"$/;"	s	object:0.labels
+job	./postgresql-server/postgresql-server.json	/^      "job": "postgresql-exporter"$/;"	s	object:0.labels
+job	./prometheus-server/config/targets/grafana.json	/^      "job": "grafana"$/;"	s	object:0.labels
+job	./prometheus-server/config/targets/prometheus.json	/^      "job": "prometheus"$/;"	s	object:0.labels
+job	./pushgateway/pushgateway.json	/^      "job": "pushgateway"$/;"	s	object:0.labels
+job	./redis-server/redis.json	/^      "job": "redis_exporter"$/;"	s	object:0.labels
+labels	./alertmanager-server/alertmanager.json	/^    "labels": {$/;"	o	object:0
+labels	./memcached-server/memcached.json	/^    "labels": {$/;"	o	object:0
+labels	./node-exporter/node-exporter.json	/^    "labels": {$/;"	o	object:0
+labels	./postgresql-server/postgresql-server.json	/^    "labels": {$/;"	o	object:0
+labels	./prometheus-server/config/targets/grafana.json	/^    "labels": {$/;"	o	object:0
+labels	./prometheus-server/config/targets/prometheus.json	/^    "labels": {$/;"	o	object:0
+labels	./pushgateway/pushgateway.json	/^    "labels": {$/;"	o	object:0
+labels	./redis-server/redis.json	/^    "labels": {$/;"	o	object:0
+promconf-concat docker container	./concat-container/README.md	/^# promconf-concat docker container$/;"	c
+targets	./alertmanager-server/alertmanager.json	/^    "targets": [ "alert-manager:9093" ],$/;"	a	object:0
+targets	./memcached-server/memcached.json	/^    "targets": [ "memcached-exporter:9150" ],$/;"	a	object:0
+targets	./node-exporter/node-exporter.json	/^    "targets": [ "node-exporter:9100" ],$/;"	a	object:0
+targets	./postgresql-server/postgresql-server.json	/^    "targets": [ "postgresql-exporter:9187" ],$/;"	a	object:0
+targets	./prometheus-server/config/targets/grafana.json	/^    "targets": [ "grafana:3000" ],$/;"	a	object:0
+targets	./prometheus-server/config/targets/prometheus.json	/^    "targets": [ "localhost:9090" ],$/;"	a	object:0
+targets	./pushgateway/pushgateway.json	/^    "targets": [ "pushgateway:9091" ],$/;"	a	object:0
+targets	./redis-server/redis.json	/^    "targets": [ "redis-exporter:9121" ],$/;"	a	object:0
